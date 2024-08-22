@@ -1,0 +1,30 @@
+.timer-section{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - 100px);
+}
+
+.timer-box{
+    display: flex;
+    gap: 20px;
+}
+
+.timer-text{
+    font-size: 24px;
+    
+}
+
+.timer-box button{
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 18px;
+    /* color: #fff;     */
+    background-color: #E9FFDB;
+    border: 1px solid #76FF7A;
+    border-radius: 4px;
+
+
+}
